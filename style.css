@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html ,body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+
+
+}
+#main{
+     height: 100%;
+      width: 100%;
+     background: rgb(147 72 107 / 51%);
+     
+     display: flex;
+}
+
+#part1{
+
+  height: 100%;
+  width: 26%; 
+
+}
+#part2{
+
+   height: 100%;
+    width: 64%;
+       background-color: rgb(157 98 118 / 58%); 
+     background-image: url(images/Hande3.png);
+     opacity: 1.5;
+      background-size: cover;
+       background-position: center;
+ 
+  
+}
+#overlay{
+
+
+  height: 100%;
+  width:100%;
+ 
+    background-color: rgb(243 169 169 / 43%);
+
+}
+#part3 {
+
+  height: 100%;
+   width:7%
+ 
+   
+}
+#text-part{
+
+    height: 300px;
+    position:absolute;
+    width: 400px;
+    top: 50%;
+    left: 8%;
+    transform: translate(0, -50%);
+   /* background-color: white;*/
+
+}
+#text-part h1 {
+ 
+   font-size: 80px;
+   /*color: rgb(136 116 90 / 79%);*/
+   color: bisque;
+  font-family: monument;
+  width: 400px;
+  font-weight: 600px;
+  line-height: 78px;
+  letter-spacing:5px;
+  text-transform: uppercase;
+
+} 
+#sm-img{
+
+
+   height: 300px;
+   width: 300px;
+   /*background-color: red;*/
+   background-image: url(images/Hande3.png);
+   background-color: rgb(157 98 118 / 58%);
+   opacity: 0.75;
+   background-size: cover;
+   background-position: center;
+   top: 50%;
+     right: 7%;
+   transform: translate(0,-50%);
+   position: absolute;
+   
+
+
+}
+#v-text{
+
+  position: absolute;
+  width: 100%;
+  /*background-color: red;*/
+  transform:rotate(90deg);
+  transform-origin: 0% 0%;
+  top: -7%;
+  right: -90%;
+
+
+
+}
+#v-text  h1{
+
+    font-size: 70px;
+    font-weight: 900px;
+    font-family: monument;
+    text-transform: uppercase;
+    color: transparent;
+   
+    letter-spacing: 15px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: bisque;
+    
+
+}
+#nav{
+
+position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 250px;
+top: 8%;
+left: 16%;
+
+ 
+}
+#nav img{
+
+  height: 35px;
+  width:40px;
+  
+  
+
+
+}
+#nav h4{
+
+  
+  font-size: 25px;
+  font-weight: 50px;
+  letter-spacing: 5px;
+  font-family: monument;
+  color: bisque;
+}
+
